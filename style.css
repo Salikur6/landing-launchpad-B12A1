@@ -98,3 +98,31 @@ nav ul li a {
 .right-side img{
     border-radius: 20px;
 }
+
+
+.productive-users{
+
+    width: 80%;
+    margin: 0 auto;
+    background-color: #4d47ff19;
+}
+
+.user{
+    text-align: center;
+    padding: 50px 60px;
+}
+
+.user h2{
+    margin-bottom: 30px;
+}
+.user-info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.info1 h1, .info2 h1, .info3 h1{
+    font-weight: 700;
+    color: #4E47FF;
+}
