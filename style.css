@@ -60,8 +60,13 @@ nav ul li a {
     margin-bottom: 30px;
 }
 
+
+.main-content{
+    background-color: #F0F0F0;
+}
+
 .action{
-    margin: 100px 0;
+    padding: 100px 0;
 }
 .card{
     
@@ -77,6 +82,7 @@ nav ul li a {
     width: 300px;
     display: flex;
     gap: 23px;
+    margin-bottom: 20px;
     
     flex-direction: column;
     justify-content: center;
@@ -101,7 +107,6 @@ nav ul li a {
 
 
 .productive-users{
-
     width: 80%;
     margin: 0 auto;
     background-color: #4d47ff19;
@@ -126,3 +131,53 @@ nav ul li a {
     font-weight: 700;
     color: #4E47FF;
 }
+
+.users-comment{
+    padding:100px 0 ;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.users-comment h1{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.comments{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.comment{
+background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #8885db19;
+    padding: 20px;
+}
+
+.comment img{
+width: 12px;
+margin: 10px 0;
+}
+
+.comment h3{
+    font-weight: 600;
+}
+
+.user-details img{
+    width: 40px;
+    border-radius: 50%;
+    
+}
+
+.user-details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+/* BABABA */
