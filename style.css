@@ -22,6 +22,8 @@
 
 #header{
     background-image: url("Assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .navbar{
@@ -51,7 +53,7 @@ nav ul li a {
 .banner{
     margin: 0 auto;
     width: 50%;
-    padding: 90px 0
+    padding: 130px 0
 }
 
 .banner-head{
@@ -102,6 +104,7 @@ nav ul li a {
 
 
 .right-side img{
+    width: 100%;
     border-radius: 20px;
 }
 
@@ -114,7 +117,7 @@ nav ul li a {
 
 .user{
     text-align: center;
-    padding: 50px 60px;
+    padding: 50px 50px;
 }
 
 .user h2{
@@ -124,6 +127,8 @@ nav ul li a {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
     
 }
 
@@ -148,6 +153,8 @@ nav ul li a {
 .comments{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 
@@ -156,6 +163,7 @@ background-color: white;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #8885db19;
     padding: 20px;
+    width: 300px;
 }
 
 .comment img{
@@ -187,6 +195,7 @@ margin: 10px 0;
     margin: 0 auto;
     display: flex;
 justify-content: space-evenly;
+flex-wrap: wrap;
 align-items: center;}
 
 .getintouch{
@@ -207,3 +216,47 @@ form label{
 form input, form textarea{
     padding: 20px 30px;
 margin-bottom: 20px;}
+
+
+footer div li{
+    list-style: none;
+}
+.footer-logo{
+    margin: 50px 0 20px 0;
+}
+.footer-logo a {
+     text-decoration:none;
+    color: #4E47FF;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+
+footer{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+footer div p{
+    color: #8987A1;
+    margin-bottom: 15px;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.footer-links li a{
+    text-decoration: none;
+    color: #8987A1;
+    margin-bottom: 50px;
+}
+
+.footer-links-container{
+    margin-bottom: 50px;
+}
