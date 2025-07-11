@@ -59,3 +59,42 @@ nav ul li a {
     /* font-size: 65px; */
     margin-bottom: 30px;
 }
+
+.action{
+    margin: 100px 0;
+}
+.card{
+    
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-side{
+
+    width: 300px;
+    display: flex;
+    gap: 23px;
+    
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.left-side h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.left-side p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #252432;
+}
+
+
+.right-side img{
+    border-radius: 20px;
+}
